@@ -65,7 +65,7 @@ Follow the instructions below and use the information in the credit_risk_resampl
 * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
 * Print the feature importance sorted in descending order (from most to least important feature), along with the feature score.
 
-![image](link)
+![BalancedRandomForestClassifier](Starter_Code/Resources/BalancedRandomForestClassifier.png)
 
 * Next, resample the training data using the **EasyEnsembleClassifier algorithm** with 100 estimators.
 * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
