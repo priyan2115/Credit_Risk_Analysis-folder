@@ -67,7 +67,7 @@ Follow the instructions below and use the information in the credit_risk_resampl
 * Next, resample the training data using the **EasyEnsembleClassifier algorithm** with 100 estimators.
 * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
 
-![image](link)
+![](link)
 
 
 
