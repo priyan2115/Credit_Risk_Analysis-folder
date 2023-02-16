@@ -6,6 +6,24 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 # Results: 
 ### Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+
+**Deliverable 1: Use Resampling Models to Predict Credit Risk**
+Using your knowledge of the **imbalanced-learn and scikit-learn libraries**, you’ll evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. First, you’ll use the **oversampling RandomOverSampler and SMOTE algorithms**, and then you’ll use the **undersampling ClusterCentroids algorithm**. Using these algorithms, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+
+
+in credit_risk_resampling.ipynb, and save it to your Credit_Risk_Analysis folder.
+
+Using the information we’ve provided in the starter code, create your training and target variables by completing the following steps:
+
+Create the training variables by converting the string values into numerical ones using the get_dummies() method.
+Create the target variables.
+Check the balance of the target variables.
+Next, begin resampling the training data. First, use the oversampling RandomOverSampler and SMOTE algorithms to resample the data, then use the undersampling ClusterCentroids algorithm to resample the data. For each resampling algorithm, do the following:
+
+Use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
+Calculate the accuracy score of the model.
+Generate a confusion matrix.
+Print out the imbalanced classification report.
 ![image](link)
 ![image](link)
 ![image](link)
