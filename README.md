@@ -67,7 +67,7 @@ Follow the instructions below and use the information in the credit_risk_resampl
 * Next, resample the training data using the **EasyEnsembleClassifier algorithm** with 100 estimators.
 * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
 
-![](link)
+![EasyEnsembleClassifier](Starter_Code/Resources/EasyEnsembleClassifier.png)
 
 
 
@@ -75,5 +75,7 @@ Follow the instructions below and use the information in the credit_risk_resampl
 
 # Summary: 
 ### Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.There is a summary of the results.There is a recommendation on which model to use, or there is no recommendation with a justification
+
+For all models, utlizing **EasyEnsembleClassifier** is the most effective. Provides a **highest Score for all Risk loans**. The **precision is low or none for all the models**. In General, **above the 90%** of the current analysis, utlizing **EasyEnsembleClassifier** will perform a **High-Risk loan precision as a great value** for the overall analysis.
 
 
