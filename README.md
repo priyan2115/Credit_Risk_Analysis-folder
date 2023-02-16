@@ -24,19 +24,16 @@ Using your knowledge of the **imbalanced-learn and scikit-learn libraries**, you
     * **Random Oversampling:**
    
 ![Random_oversampling](Starter_Code/Resources/Random_oversampling.png)
-
-    
-    * **SMOTE oversampling**:
+   
+   * **SMOTE oversampling**:
     
  ![SMOTE_oversamplig](Starter_Code/Resources/SMOTE_oversamplig.png)
  
-     * **Under Sampling**:
+ * **Under Sampling:**
      
   ![Undersamplig](Starter_Code/Resources/Undersamplig.png)
   
-     * **Combination:**
-   
-   ![combination](Starter_Code/Resources/combination.png)
+    
 
 **Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk**
 Using your knowledge of the **imbalanced-learn and scikit-learn libraries**, you’ll use a combinatorial approach of **over- and undersampling with the SMOTEENN algorithm** to determine if the results from the combinatorial approach are better at predicting credit risk than the **resampling algorithms** from Deliverable 1. Using the **SMOTEENN algorithm**, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
@@ -48,9 +45,9 @@ Follow the instructions below and use the information in the credit_risk_resampl
 * After the data is resampled, use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
 * Calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
 
-![image](link)
-![image](link)
-![image](link)
+ * **SMOTEENN:**
+   
+   ![combination](Starter_Code/Resources/combination.png)
 
 **Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk**
 
