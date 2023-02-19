@@ -23,15 +23,15 @@ Using your knowledge of the **imbalanced-learn and scikit-learn libraries**, you
     
     * **Random Oversampling:**
    
-![Random_oversampling](Starter_Code/Resources/Random_oversampling.png)
+![Deliverable1_R.png](Starter_Code/Resources/Deliverable1_R.png)
    
    * **SMOTE oversampling**:
-    
- ![SMOTE_oversamplig](Starter_Code/Resources/SMOTE_oversamplig.png)
+   
+ ![Deliverable1_SO.png](Starter_Code/Resources/Deliverable1_SO.png)      
  
  * **Under Sampling:**
      
-  ![Undersamplig](Starter_Code/Resources/Undersamplig.png)
+  ![Deliverable1_SU.png](Starter_Code/Resources/Deliverable1_SU.png)
   
     
 
@@ -47,8 +47,10 @@ Follow the instructions below and use the information in the credit_risk_resampl
 
  * **SMOTEENN:**
    
-   ![combination](Starter_Code/Resources/combination.png)
-
+   ![Deliverable1_SM.png](Starter_Code/Resources/Deliverable1_SM.png)
+   
+   
+   
 **Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk**
 
 Using your knowledge of the **imblearn.ensemble library**, you’ll train and compare two different **ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier**, to predict credit risk and evaluate each model. Using both algorithms, you’ll resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
